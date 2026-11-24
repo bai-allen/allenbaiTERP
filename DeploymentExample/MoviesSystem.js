@@ -9,6 +9,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set("view engine", "ejs");
 app.set("views", path.resolve(__dirname, "templates"));
 
+// test comment
 /*
 require("dotenv").config({
    path: path.resolve(__dirname, "credentialsDontPost/.env"),
